@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         body{
+         background-color: rgb(1, 1, 37);
+         color: white;
+         font-family: 'poppins', sans-serif;
+         }
+
+         nav{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         height: 70px;
+         background: rgb(0, 0, 49);
+         }
+
+         nav ul{
+         display: flex;
+         justify-content: center;
+         }
+
+         nav ul li {
+         list-style: none;
+         margin: 0 23px;
+         }
+
+         nav ul li a{
+         text-decoration: none;
+         color: white;
+         }
+
+         nav ul li a:hover{
+         color: rgb(152, 152, 220);
+         font-size: 1.03rem;
+         }
+
+         main hr{
+         border: 0;
+         background: #9c97f1;
+         height: 1.8px;
+         margin: 60px 84px;
+         }
+
+         .left{
+         font-size: 1.5rem;
+         }
+
+         .firstsection{
+          display: flex;
+          justify-content: space-around;
+          margin: 150PX 0;
+         }
+
+         .firstsection> div{
+          width: 30%;
+         }
+
+         .leftsection{
+         font-size: 2.5rem;
+         }
+
+         .leftsection .buttons{
+          padding: 50px 0;
+         }
+         
+         .leftsection .btn{
+          padding: 12px;
+          background: #1e2167;
+          color: white;
+          border: 2px solid white;
+          border: radius 6px;
+          font-size: 15px;
+          cursor: pointer; 
+          }
+
+         .rightsection img{
+          width: 70%;
+          }
+
+         .purple{
+          color: rgb(135, 44, 219);
+          }
+
+         .text-gray{
+          color: gray;
+          }
+
+          #element{
+          color: rgb(135, 44, 219);
+          }
+
+         .secondSection{
+          max-width: 80vw;
+          margin: auto;
+          height: 80vh;
+          }
+
+         .secondSection h1{
+          font-size: 1.9rem;
+          }
+
+         .secondSection .box{
+          background: white;
+          width: 82vw; 
+          height: 2px;
+          margin: 56px 0;
+          display: flex;
+          }
+
+         .secondSection .vertical{
+          height: 90px;
+          width: 1px;
+          background-color: white;
+          margin: 0 130px;
+          }
+
+         .image-top{
+          width: 23px;
+          position: relative;
+          top: -32px;
+          left: -9px;
+          }
+
+         .vertical-title{
+          position: relative;
+          top: 67px;
+          right: 40px;
+          width: 167px;
+          font-size: 14px;
+          }
+          
+         .vertical-desc{
+          position: relative;
+          top: 90px;
+          right: 40px;
+          color: gray;
+          width: 130px;
+          font-size: 10px;
+          }
+
+          footer{
+          background-color: #00001f;
+          }
+
+          .footer{
+          display: flex;
+          padding: 23px 122px;
+          justify-content: space-evenly;
+          }
+
+          .footer ul{
+          list-style: none;
+          }
+
+          .footer > div{
+          width: 223px;
+          }
+
+          footer .footer-rights{
+          text-align: center;
+          color: gray;
+          padding: 12px 0;
+          }
+
+          .html1{
+           position: relative;
+           top: 0px;
+           right: 20px;
+          }
+          
+          
+          .yt1{
+            position: relative;
+            left: 750px;
+            bottom: 55px;
+          }
+         
+          .yt3{
+            position: relative;
+            top: 85px;
+            right: 40px;
+          }
+
+          .insta1{
+            position: relative;
+            top: 1px;
+            right: 30px;          
+          }
+
+          .insta2{
+            position: relative;
+            top: 66px;
+            right: 40px;
+          }
+
+          .insta3{
+            position: relative;
+            top: 150px;
+            right: 200px;
+          }
+
+           .facebook1{
+             position: relative;
+             top: -145px;
+             right: -1000px;
+           }
+
+      </style>
+    </head>
+<body>
+    <header>
+       <nav>
+          <div class="left">chetana's portfolio</div>
+          <div class="right">
+            <ul>
+                 <li><a href="/">home</a></li>
+                 <li><a href="/">about</a></li>
+                 <li><a href="/">project</a></li>
+                 <li><a href="/">contact</a></li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello, Myself<span class="purple"> Chetana Girhepunje</span>
+
+
+                <div> and I am a Passionate </div>
+                <span id="element"></span>
+                <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+                </div>
+            </div>
+                <div class="rightsection">
+                <img src= "logo.jpg" alt="">
+            </div>
+        </section>
+       <hr>
+       <section class="secondSection">
+       <span class="text-gray">what I have done so far</span>
+       <h1>work experience</h1>
+
+       <div class="box">
+         <div class="vertical">
+            <img class="image-top" src="developer.png" alt="">
+            <div class="vertical-title">
+               HTML Developer <br>(2010-2012)
+            </div>
+            <div class="vertical-desc">
+               lorem ipsm dolor sit amet consector adipisicing elit.
+               libero unde omnis ullam, enim facilis
+               possiums accusamus ab! Dolores mollitia odis quos.
+               Facilis, incidunt?
+            </div>   
+         </div>
+         <!-- <div class="box"> -->
+           <div class="vertical html1">
+               <img class="image-top" src="htmlpng.png" alt="">
+               <div class="vertical-title">
+                  Node.js Develeoper (2012-2014)
+               </div>
+           <div class="vertical-desc">
+                  lorem ipsm dolor sit amet consector adipisicing elit.
+                  libero unde omnis ullam, enim facilis
+                  possiums accusamus ab! Dolores mollitia odis quos.
+                  Facilis, incidunt?
+               </div>
+               </div>
+            <div class="vertical insta1">
+               <img class="image-top" src="instagram.png" alt="">
+               <div class="vertical-title insta2">
+                  HTML Developer<br> (2010-2012)
+               </div>
+               </div>
+            <div class="vertical-desc insta3">
+               lorem ipsm dolor sit amet consector adipisicing elit.
+               libero unde omnis ullam, enim facilis
+               possiums accusamus ab! Dolores mollitia odis quos.
+               Facilis, incidunt?
+               </div>
+               </div>
+            <div class="vertical yt1">
+               <img class="image-top" src="yt.png" alt="">
+               <div class="vertical-title yt2">
+                   Node.js Developer<br>(2012-2014)
+               </div>
+               <div class="vertical-desc yt3">
+                  lorem ipsm dolor sit amet consector adipisicing elit.
+                  libero unde omnis ullam, enim facilis
+                  possiums accusamus ab! Dolores mollitia odis quos.
+                  Facilis, incidunt?>
+               </div>
+               </div>
+                <div class="vertical facebook1">
+                  <img class="image-top" src="facebook.png" alt="">
+                  <div class="vertical-title">
+                     HTML Developer <br>(2010-2012)
+                  </div>
+                  <div class="vertical-desc">
+                     lorem ipsm dolor sit amet consector adipisicing elit.
+                     libero unde omnis ullam, enim facilis
+                     possiums accusamus ab! Dolores mollitia odis quos.
+                     Facilis, incidunt?
+                  </div>   
+               </div>
+        </section>
+    </main>
+
+      <footer>
+           <div class="footer">
+             <div class="footer-first">
+               <h3>Chetana's Developer Portfolio</h3>
+             </div>
+            <div class="footer-second">
+              <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Services</li>
+                  <li>contact</li>
+              </ul>
+            </div>
+            <div class="footer-third">
+               <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Services</li>
+                  <li>contact</li>
+              </ul>
+            </div>
+           <div class="footer-fourth">
+             <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>Services</li>
+               <li>contact</li>
+             </ul>
+       </div>
+  </div>
+<div class="footer-rights">
+   copyright &#169;chetanasportfolio.com | All rights reserved
+</div>
+</footer>
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer','web Designer','graphic designer'],
+      typeSpeed: 50,
+    });
+</script>
+</body>
+</html>
